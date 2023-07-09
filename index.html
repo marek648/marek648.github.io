@@ -31,8 +31,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.rwdImageMaps.js"></script>
         <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
-        <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
-        
+        <script type="text/javascript" src="js/imageMapResizer.min.js"></script>        
            
     </head>
 
@@ -95,16 +94,23 @@
         
         
 
-        <!-- About Start -->
-        <a class="anchor" id="about"></a>
-
+    <!-- About Start -->
+    <a class="anchor" id="about"></a>
+    <body>
+ 
+    
+        
+    
+      <!-- Example row of columns -->
+      
+      
 <!-- About Start -->
 <div class="container-fluid p-0">
     <div class="row no-gutters mr-0 mt-4">
-        <div class="col-lg-6">
+        <div class="col-lg-6 ">
             <img class="img-fluid w-100" src="img/about.png">
         </div>
-        <div class="col-lg-6 mycol-2">
+        <div class="col-lg-6">
             <div class=" mt-5 mb-5 ml-5 mr-5">
                 <h1 >O projekte</h1>
                 <br>
@@ -113,25 +119,29 @@
                     <p><i class="fa fa-check text-primary me-3"></i>Vyčlenení pozemkov pre 8 rodinných domov</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Výstavbe 4 rodinných domov</p>
                 
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Zistiť viac</a>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-3" href="">Zistiť viac</a> -->
+                    
+                    <p><div class="col-lg-4 p-0"> <a href="#" class="btn btn-sm animated-button victoria-four">Zistiť viac</a> </div></p>
+                    
                 </br>
+                
             </div>
+            
         
             
             
         </div>
         
     </div>
-
+    
 </div>
 <!-- About End -->
-               
-    
+
 
 <!-- About Start -->
 <div class="container-fluid p-0">
     <div class="row no-gutters mr-0">
-        <div class="col-lg-6 mycol-2">
+        <div class="col-lg-6">
             <div class=" mt-5 mb-5 ml-5 mr-5">
                 <h1>Lokalita</h1>
                 <br>
@@ -139,7 +149,8 @@
                     <p><i class="fa fa-check text-primary me-3"></i>Základná škola s Materskou školou, telocvičňa (50m)</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Obecný úrad, pošta, supermarket (200m)</p>
                     <p><i class="fa fa-check text-primary me-3"></i>Autobusová zastávka (250m)</p>
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Zobraziť na mape google</a>
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-3" href="">Zobraziť na mape google</a> -->
+                    <p><div class="col-lg-4 p-0"> <a href="#" class="btn btn-sm animated-button victoria-four">Zobraziť na mape google</a> </div></p>
                 </br>
             </div>
         </div>    
@@ -162,7 +173,7 @@
         <div class="col-lg-6">
             <img class="img-fluid w-100" src="img/about.png">
         </div>
-        <div class="col-lg-6 mycol-2">
+        <div class="col-lg-6">
             <div class=" mt-5 mb-5 ml-5 mr-5">
                 <h1>Možnosť rezervácie</h1>
             <!-- <div class="about-border"></div> -->
@@ -173,7 +184,8 @@
                 <p><i class="fa fa-check text-primary me-3"></i>Rezervácia je bez akýchkoľvek poplatkov a môžete ju kedykoľvek zrušiť </p>
                 <p><i class="fa fa-check text-primary me-3"></i>Našim cieľom je predať zákazníkom až hotový pozemok/dom.</p>
                 <p><i class="fa fa-check text-primary me-3"></i>Ak si však u nás nezáväzne zarezervuje niektorý z domov/pozemkov budeme Vás kontaktovať ako prvých, že je pozemok/dom pripravený na predaj.</p>
-                <a class="btn btn-primary py-3 px-5 mt-3" href="#contact">Mám záujem o rezerváciu</a>
+                <!-- <a class="btn btn-primary py-3 px-5 mt-3" href="#contact">Mám záujem o rezerváciu</a> -->
+                <p><div class="col-lg-4 p-0"> <a href="#contact" class="btn btn-sm animated-button victoria-four">Mám záujem o rezerváciu</a> </div></p>
             </br>
             </div>
         
@@ -185,7 +197,11 @@
 
 </div>
 <!-- About End -->
+<div class="mycontainer">
     <img  class="img-fluid w-100" src="img/map_markedV2.png" usemap="#mapa" alt="" id="map"/>
+    <div class="top-left">Top Left</div>
+  </div>   
+
         <!-- Food Start -->
         <div class="food" id="offer">
             <div class="container">
@@ -502,7 +518,7 @@
 
     
     <!-- partial:index.partial.html -->
-    <section id=timeline>
+    <!-- <section id=timeline>
         <h1>Plán realizácie</h1>
         <p class="leader">Časový plán výstavby projetu IBV Bojničky.</p>
         <div class="demo-card-wrapper">
@@ -594,8 +610,245 @@
             </div>
         
         </div>
-    </section>
+    </section> -->
     <!-- partial -->
+
+    <!-- Timeline start -->
+    
+        <div class="ag-timeline-block">
+            <div class="ag-timeline_title-box">
+                <div class="section-header">
+                    <p>Plán realizácie</p>
+                    <h2>Časový plán výstavby projektu IBV Bojničky</h2>
+                </div>
+            </div>
+            <section class="ag-section">
+              <div class="ag-format-container">
+                <div class="js-timeline ag-timeline">
+                  <div class="js-timeline_line ag-timeline_line">
+                    <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+                  </div>
+                  <div class="ag-timeline_list">
+                    <div class="js-timeline_item ag-timeline_item">
+                      <div class="ag-timeline-card_box">
+                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                            <div class="ag-timeline-card_point">
+                                <div style = "position:relative;top:-3px;">
+                                    2023
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ag-timeline-card_meta-box">
+                          <div class="ag-timeline-card_meta">Etapa 1</div>
+                        </div>
+                      </div>
+                      <div class="ag-timeline-card_item">
+                        <div class="ag-timeline-card_inner">
+                          <div class="ag-timeline-card_img-box">
+                            <img src="img/timeline-plan.jpg" class="ag-timeline-card_img" width="640" height="360" />
+                          </div>
+                          <div class="ag-timeline-card_info">
+                            <div class="ag-timeline-card_title">Etapa 1</div>
+                            <div class="ag-timeline-card_desc">
+                                <h2>Schválenie projektu</h2>
+                                <h5>Jún 2022 - Júl 2023</h5>
+                                Tvorba plánov projektu. Podanie žiadostí a schválenie projektu všetkými príslušnými orgánmi (ZSD, letisko, archeológ).
+                                
+                                <br></br> <p><i class="fa fa-check text-primary me-3"></i><b>Stav:</b> Dokončené </p>
+                                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_arrow"></div>
+                      </div>
+                    </div>
+          
+                    <div class="js-timeline_item ag-timeline_item">
+                      <div class="ag-timeline-card_box">
+                        <div class="ag-timeline-card_meta-box">
+                          <div class="ag-timeline-card_meta">Etapa 2</div>
+                        </div>
+                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                          <div class="ag-timeline-card_point">
+                            <div style = "position:relative;top:-3px;">
+                                2023
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ag-timeline-card_item">
+                        <div class="ag-timeline-card_inner">
+                          <div class="ag-timeline-card_img-box">
+                            <img src="img/timeline-cesta.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                          </div>
+                          <div class="ag-timeline-card_info">
+                            <div class="ag-timeline-card_title">Etapa 2</div>
+                            <div class="ag-timeline-card_desc">
+                              <h2>Príjazdová cesta</h2>
+                              <h5>Júl 2023 - December 2023</h5>
+                                Vybudovanie pešej a cestnej komunikácie a inžinierkych sietí.
+                                <br></br> <p><i class="fa fa-check text-primary me-3"></i><b>Stav:</b> Vo výstavbe (40%) </p>
+                            
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_arrow"></div>
+                      </div>
+                    </div>
+          
+                    <div class="js-timeline_item ag-timeline_item">
+                      <div class="ag-timeline-card_box">
+                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                          <div class="ag-timeline-card_point">
+                            <div style = "position:relative;top:-3px;">
+                                2024
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_meta-box">
+                          <div class="ag-timeline-card_meta">Etapa 3</div>
+                        </div>
+                      </div>
+                      <div class="ag-timeline-card_item">
+                        <div class="ag-timeline-card_inner">
+                          <div class="ag-timeline-card_img-box">
+                            <img src="img/timeline-pozemkydomy-rezerv.jpg" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                          </div>
+                          <div class="ag-timeline-card_info">
+                            <div class="ag-timeline-card_title">Etapa 3</div>
+                            <div class="ag-timeline-card_desc">
+                                <h2>Rezervácia</h2>
+                                
+                                Spustenie rezervácie 8 pozemkov a 4 rodinných domov.
+                            
+                                <br></br> <p><i class="fa fa-check text-primary me-3"></i><b>Stav:</b> Spustené - možete požiadať o rezerváciu pozemku/domu </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_arrow"></div>
+                      </div>
+                    </div>
+          
+                    <div class="js-timeline_item ag-timeline_item">
+                      <div class="ag-timeline-card_box">
+                        <div class="ag-timeline-card_meta-box">
+                          <div class="ag-timeline-card_meta">Etapa 4</div>
+                        </div>
+                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                          <div class="ag-timeline-card_point">
+                            <div style = "position:relative;top:-3px;">
+                                2024
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ag-timeline-card_item">
+                        <div class="ag-timeline-card_inner">
+                          <div class="ag-timeline-card_img-box">
+                            <img src="img/timeline-pozemkypredaj.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                          </div>
+                          <div class="ag-timeline-card_info">
+                            <div class="ag-timeline-card_title">Etapa 4</div>
+                            <div class="ag-timeline-card_desc">
+                                <h2>Predaj pozemkov</h2>
+                                <h5>August 2024</h5>
+                                Spustenie predaja 8 pozemkov
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_arrow"></div>
+                      </div>
+                    </div>
+          
+                    <div class="js-timeline_item ag-timeline_item">
+                      <div class="ag-timeline-card_box">
+                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                          <div class="ag-timeline-card_point">
+                            <div style = "position:relative;top:-3px;">
+                                2024
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_meta-box">
+                          <div class="ag-timeline-card_meta">Etapa 5</div>
+                        </div>
+                      </div>
+                      <div class="ag-timeline-card_item">
+                        <div class="ag-timeline-card_inner">
+                          <div class="ag-timeline-card_img-box">
+                            <img src="img/timeline-stavbadomy.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                          </div>
+                          <div class="ag-timeline-card_info">
+                            <div class="ag-timeline-card_title">Etapa 5</div>
+                            <div class="ag-timeline-card_desc">
+                                <h2>Výstavba domov</h2>
+                                <h5>September 2024</h5>
+                                Výstavba 4 rodinných domov
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_arrow"></div>
+                      </div>
+                    </div>
+          
+                    <div class="js-timeline_item ag-timeline_item">
+                      <div class="ag-timeline-card_box">
+                        <div class="ag-timeline-card_meta-box">
+                          <div class="ag-timeline-card_meta">Etapa 6</div>
+                        </div>
+                        <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                          <div class="ag-timeline-card_point">2025</div>
+                        </div>
+                      </div>
+                      <div class="ag-timeline-card_item">
+                        <div class="ag-timeline-card_inner">
+                          <div class="ag-timeline-card_img-box">
+                            <img src="img/timeline-predajdomy.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                          </div>
+                          <div class="ag-timeline-card_info">
+                            <div class="ag-timeline-card_title">Etapa 6</div>
+                            <div class="ag-timeline-card_desc">
+                                <h2>Predaj domov</h2>
+                                <h5>Január 2025</h5>
+                                Predaj 4 rodinných domov
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ag-timeline-card_arrow"></div>
+                      </div>
+                    </div>
+          
+                    
+          
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        
+    <!-- Timeline end -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <!-- Contact Start -->
@@ -688,6 +941,10 @@
         <!-- Contact End -->
 
 
+
+
+
+
 <!-- Footer Start
         <div class="footer">
             <div class="container">
@@ -750,13 +1007,15 @@
         <script src="lib/tempusdominus/js/moment.min.js"></script>
         <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
         <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-        
+        <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+             
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/timeline.js"></script>
         
         
     </body>
