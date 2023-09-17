@@ -2774,7 +2774,7 @@ a.animated-button:hover:after {
   /* Bottom left text */
   .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: -5px;
     left: 16px;
   }
   
@@ -2782,7 +2782,7 @@ a.animated-button:hover:after {
   .top-left {
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 350px;
   }
 
   /* section { height: 100vh; } */
